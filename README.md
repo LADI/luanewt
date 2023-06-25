@@ -1,6 +1,7 @@
-# a newt binding library for Lua 5.3
+# a newt binding library for Lua 5.3 (with LADI project modifications)
 
-This is a simple [newt][newt] binding library for lua 5.3, fork from [luanewt][luanewt].
+This is a simple [newt][newt] binding library for lua 5.3,
+fork from [luanewt][luanewt] and [lnewt][lnewt].
 
 It has been tested only on Mac OS X and Centos 6.
 
@@ -23,4 +24,5 @@ and then just do `make`, run test with `make test`
 
 [newt]: https://en.wikipedia.org/wiki/Newt_(programming_library)
 [luanewt]: https://github.com/SnarkyClark/luanewt
+[lnewt]: https://github.com/DavidFeng/lnewt
 [LDoc]: https://github.com/stevedonovan/LDoc
