@@ -1,8 +1,26 @@
-luanewt
-=======
+# a newt binding library for Lua 5.3
 
-A basic Newt binding for Lua 5.1. 
+This is a simple [newt][newt] binding library for lua 5.3, fork from [luanewt][luanewt].
 
-> Newt is a programming library for color text mode, widget-based user interfaces. Newt can be used to add stacked windows, entry widgets, checkboxes, radio buttons, labels, plain text fields, scrollbars, etc., to text user interfaces.
+It has been tested only on Mac OS X and Centos 6.
 
-See [Newt Tutorial - SourceForge](http://gnewt.sourceforge.net/tutorial.html) for more information about Newt.
+## TODO
+
+* complete the empty binding function
+* improve the Lua api
+* add documentation with [LDoc][LDoc]
+
+## build & usage
+
+install deps
+
+```zsh
+brew install newt # MacOS X
+yum install -y newt-devel # CentOS
+```
+
+and then just do `make`, run test with `make test`
+
+[newt]: https://en.wikipedia.org/wiki/Newt_(programming_library)
+[luanewt]: https://github.com/SnarkyClark/luanewt
+[LDoc]: https://github.com/stevedonovan/LDoc
