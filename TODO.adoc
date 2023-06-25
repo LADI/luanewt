@@ -1,0 +1,5 @@
+=== TODO
+
+ * complete the empty binding function
+ * improve the Lua api
+ * add documentation with https://github.com/stevedonovan/LDoc[LDoc]

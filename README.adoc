@@ -1,28 +1,43 @@
-# a newt binding library for Lua 5.3 and 5.4 (with LADI project modifications)
+== lua bindings for Newt
 
-This is a simple [newt][newt] binding library for lua 5.3 and 5.4,
-fork from [luanewt][luanewt] and [lnewt][lnewt].
+https://github.com/SnarkyClark/luanewt[luanewt] provides simple lua bindings for
+https://en.wikipedia.org/wiki/Newt_(programming_library)[Newt], a programming library
+for color text mode, widget-based user interfaces. 
 
-It has been tested only on Mac OS X and Centos 6.
+NOTE: Here are LADI project modifications of bindings that https://github.com/DavidFeng/lnewt[work fwith Lua 5.3] (and 5.4).
 
-## TODO
+=== Dependencies
+ * lua 5.3, 5.4 or future version of lua
+ * newt
 
-* complete the empty binding function
-* improve the Lua api
-* add documentation with [LDoc][LDoc]
+=== build & usage
 
-## build & usage
+==== Using waf
 
+Configure the source tree:
+--------
+./waf configure --prefix=/usr
+--------
+
+Build the source tree:
+--------
+./waf
+--------
+
+Install the source tree:
+--------
+./waf install
+--------
+
+==== Using GNU make
 install deps
 
-```zsh
+--------
 brew install newt # MacOS X
+--------
+
+--------
 yum install -y newt-devel # CentOS
-```
+--------
 
 and then just do `make`, run test with `make test`
-
-[newt]: https://en.wikipedia.org/wiki/Newt_(programming_library)
-[luanewt]: https://github.com/SnarkyClark/luanewt
-[lnewt]: https://github.com/DavidFeng/lnewt
-[LDoc]: https://github.com/stevedonovan/LDoc
