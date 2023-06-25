@@ -19,7 +19,7 @@ LNEWTLIB= $(PREFIX)/lib
 # probably no need to change anything below here
 CC= gcc
 CFLAGS= $(INCS) $(WARN) -O2 -fPIC $G
-WARN= -ansi -pedantic -Wall
+WARN= -std=c99 -pedantic -Wall
 INCS= -I$(LUAINC) -I$(LNEWTINC)
 LIBS= -L$(LNEWTLIB) -lnewt
 
