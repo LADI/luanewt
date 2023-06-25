@@ -1,5 +1,4 @@
-Debug
-Release
-*~
-*.o
-*.so
+/.waf-*/
+/.waf3-*/
+/build/
+/.lock-waf*

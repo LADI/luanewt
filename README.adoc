@@ -1,6 +1,6 @@
-# a newt binding library for Lua 5.3 (with LADI project modifications)
+# a newt binding library for Lua 5.3 and 5.4 (with LADI project modifications)
 
-This is a simple [newt][newt] binding library for lua 5.3,
+This is a simple [newt][newt] binding library for lua 5.3 and 5.4,
 fork from [luanewt][luanewt] and [lnewt][lnewt].
 
 It has been tested only on Mac OS X and Centos 6.
