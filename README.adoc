@@ -4,7 +4,7 @@ https://github.com/SnarkyClark/luanewt[luanewt] provides simple lua bindings for
 https://en.wikipedia.org/wiki/Newt_(programming_library)[Newt], a programming library
 for color text mode, widget-based user interfaces. 
 
-NOTE: Here are LADI project modifications of bindings that https://github.com/DavidFeng/lnewt[work fwith Lua 5.3] (and 5.4).
+NOTE: Here are LADI project modifications of bindings that https://github.com/DavidFeng/lnewt[work with Lua 5.3] (and 5.4). A https://waf.io/[waf build system] is provided as alternative to the original Makefile (uses pkg-config).
 
 === Dependencies
  * lua 5.3, 5.4 or future version of lua
@@ -29,7 +29,7 @@ Install the source tree:
 ./waf install
 --------
 
-==== Using GNU make
+==== Using make
 install deps
 
 --------
